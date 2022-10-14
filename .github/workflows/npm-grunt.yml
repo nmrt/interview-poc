@@ -27,22 +27,22 @@ jobs:
       # uses: SusanDoggie/mongodb-action@a150cf7ccd58d490da82ffb225a43abcc7a9d347
       uses: SusanDoggie/mongodb-action@0.0.1
       with:
-        # Docker network to use (default "bridge")
-        network: # optional, default is bridge
-        # MongoDB version to use (default "latest")
-        version: # optional, default is latest
-        # MongoDB version to use (default "mongo")
-        host: # optional, default is mongo
-        # MongoDB port to use (default 27017)
-        port: # optional, default is 27017
-        # MongoDB root username (default: none)
-        username: # optional, default is 
-        # MongoDB root password (default: none)
-        password: # optional, default is 
-        # MongoDB db to create (default: none)
-        database: # optional, default is 
-        # MongoDB replica set name (no replica set by default)
-        replica_set: # optional, default is 
+        # # Docker network to use (default "bridge")
+        # network: # optional, default is bridge
+        # # MongoDB version to use (default "latest")
+        # version: # optional, default is latest
+        # # MongoDB version to use (default "mongo")
+        # host: # optional, default is mongo
+        # # MongoDB port to use (default 27017)
+        # port: # optional, default is 27017
+        # # MongoDB root username (default: none)
+        # username: # optional, default is 
+        # # MongoDB root password (default: none)
+        # password: # optional, default is 
+        # # MongoDB db to create (default: none)
+        # database: # optional, default is 
+        # # MongoDB replica set name (no replica set by default)
+        # replica_set: # optional, default is 
 
     - name: Build
       run: |
